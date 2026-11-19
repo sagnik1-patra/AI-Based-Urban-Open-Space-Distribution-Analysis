@@ -1,0 +1,409 @@
+{
+    "project": "AI-Based Urban Open Space Distribution Analysis and Green Infrastructure Optimization Using PSO and AIS",
+    "generated_at": "2026-11-19T08:23:23.741625+00:00",
+    "total_records": 20,
+    "total_open_spaces": 523.0,
+    "best_model": "Mean Baseline",
+    "selection_metric": "LOOCV MAE",
+    "model_comparison": [
+        {
+            "Model": "Mean Baseline",
+            "MAE": 17.589473684210528,
+            "MSE": 751.2770083102494,
+            "RMSE": 27.409432834523397,
+            "R2": -0.10803324099723022
+        },
+        {
+            "Model": "Ridge Regression",
+            "MAE": 18.689063672515978,
+            "MSE": 788.9808855107024,
+            "RMSE": 28.088803561396173,
+            "R2": -0.16364142385183866
+        },
+        {
+            "Model": "Linear Regression",
+            "MAE": 19.548133348927745,
+            "MSE": 821.0649672363822,
+            "RMSE": 28.65423122745369,
+            "R2": -0.21096115900370194
+        },
+        {
+            "Model": "Random Forest",
+            "MAE": 21.45098106060606,
+            "MSE": 991.7095948361386,
+            "RMSE": 31.491420972006626,
+            "R2": -0.4626391921214683
+        }
+    ],
+    "evaluation_results": [
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 1",
+            "sector_number": 1,
+            "Actual": 15,
+            "Predicted": 26.736842105263158,
+            "Absolute_Error": 11.736842105263158,
+            "Squared_Error": 137.75346260387812,
+            "Evaluation": "LOOCV"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 2",
+            "sector_number": 2,
+            "Actual": 37,
+            "Predicted": 25.57894736842105,
+            "Absolute_Error": 11.421052631578949,
+            "Squared_Error": 130.44044321329642,
+            "Evaluation": "LOOCV"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 3",
+            "sector_number": 3,
+            "Actual": 2,
+            "Predicted": 27.42105263157895,
+            "Absolute_Error": 25.42105263157895,
+            "Squared_Error": 646.229916897507,
+            "Evaluation": "LOOCV"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 4",
+            "sector_number": 4,
+            "Actual": 120,
+            "Predicted": 21.210526315789473,
+            "Absolute_Error": 98.78947368421052,
+            "Squared_Error": 9759.360110803324,
+            "Evaluation": "LOOCV"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 5",
+            "sector_number": 5,
+            "Actual": 15,
+            "Predicted": 26.736842105263158,
+            "Absolute_Error": 11.736842105263158,
+            "Squared_Error": 137.75346260387812,
+            "Evaluation": "LOOCV"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 6",
+            "sector_number": 6,
+            "Actual": 20,
+            "Predicted": 26.473684210526315,
+            "Absolute_Error": 6.473684210526315,
+            "Squared_Error": 41.90858725761772,
+            "Evaluation": "LOOCV"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 7",
+            "sector_number": 7,
+            "Actual": 67,
+            "Predicted": 24.0,
+            "Absolute_Error": 43.0,
+            "Squared_Error": 1849.0,
+            "Evaluation": "LOOCV"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 8",
+            "sector_number": 8,
+            "Actual": 10,
+            "Predicted": 27.0,
+            "Absolute_Error": 17.0,
+            "Squared_Error": 289.0,
+            "Evaluation": "LOOCV"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 9",
+            "sector_number": 9,
+            "Actual": 15,
+            "Predicted": 26.736842105263158,
+            "Absolute_Error": 11.736842105263158,
+            "Squared_Error": 137.75346260387812,
+            "Evaluation": "LOOCV"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 10",
+            "sector_number": 10,
+            "Actual": 15,
+            "Predicted": 26.736842105263158,
+            "Absolute_Error": 11.736842105263158,
+            "Squared_Error": 137.75346260387812,
+            "Evaluation": "LOOCV"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 11",
+            "sector_number": 11,
+            "Actual": 26,
+            "Predicted": 26.157894736842106,
+            "Absolute_Error": 0.1578947368421062,
+            "Squared_Error": 0.02493074792243797,
+            "Evaluation": "LOOCV"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 12",
+            "sector_number": 12,
+            "Actual": 26,
+            "Predicted": 26.157894736842106,
+            "Absolute_Error": 0.1578947368421062,
+            "Squared_Error": 0.02493074792243797,
+            "Evaluation": "LOOCV"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 13",
+            "sector_number": 13,
+            "Actual": 4,
+            "Predicted": 27.31578947368421,
+            "Absolute_Error": 23.31578947368421,
+            "Squared_Error": 543.6260387811634,
+            "Evaluation": "LOOCV"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 14",
+            "sector_number": 14,
+            "Actual": 16,
+            "Predicted": 26.68421052631579,
+            "Absolute_Error": 10.684210526315791,
+            "Squared_Error": 114.15235457063716,
+            "Evaluation": "LOOCV"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 15",
+            "sector_number": 15,
+            "Actual": 4,
+            "Predicted": 27.31578947368421,
+            "Absolute_Error": 23.31578947368421,
+            "Squared_Error": 543.6260387811634,
+            "Evaluation": "LOOCV"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 16",
+            "sector_number": 16,
+            "Actual": 10,
+            "Predicted": 27.0,
+            "Absolute_Error": 17.0,
+            "Squared_Error": 289.0,
+            "Evaluation": "LOOCV"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 17",
+            "sector_number": 17,
+            "Actual": 36,
+            "Predicted": 25.63157894736842,
+            "Absolute_Error": 10.368421052631579,
+            "Squared_Error": 107.50415512465374,
+            "Evaluation": "LOOCV"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 18",
+            "sector_number": 18,
+            "Actual": 37,
+            "Predicted": 25.57894736842105,
+            "Absolute_Error": 11.421052631578949,
+            "Squared_Error": 130.44044321329642,
+            "Evaluation": "LOOCV"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 19",
+            "sector_number": 19,
+            "Actual": 21,
+            "Predicted": 26.42105263157895,
+            "Absolute_Error": 5.421052631578949,
+            "Squared_Error": 29.387811634349045,
+            "Evaluation": "LOOCV"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 20",
+            "sector_number": 20,
+            "Actual": 27,
+            "Predicted": 26.105263157894736,
+            "Absolute_Error": 0.8947368421052637,
+            "Squared_Error": 0.8005540166204996,
+            "Evaluation": "LOOCV"
+        }
+    ],
+    "fitted_predictions": [
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 1",
+            "sector_number": 1,
+            "Fitted_Open_Space_Count": 26.15,
+            "Observed_Open_Space_Count": 15.0,
+            "Prediction_Type": "In-sample fitted estimate"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 2",
+            "sector_number": 2,
+            "Fitted_Open_Space_Count": 26.15,
+            "Observed_Open_Space_Count": 37.0,
+            "Prediction_Type": "In-sample fitted estimate"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 3",
+            "sector_number": 3,
+            "Fitted_Open_Space_Count": 26.15,
+            "Observed_Open_Space_Count": 2.0,
+            "Prediction_Type": "In-sample fitted estimate"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 4",
+            "sector_number": 4,
+            "Fitted_Open_Space_Count": 26.15,
+            "Observed_Open_Space_Count": 120.0,
+            "Prediction_Type": "In-sample fitted estimate"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 5",
+            "sector_number": 5,
+            "Fitted_Open_Space_Count": 26.15,
+            "Observed_Open_Space_Count": 15.0,
+            "Prediction_Type": "In-sample fitted estimate"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 6",
+            "sector_number": 6,
+            "Fitted_Open_Space_Count": 26.15,
+            "Observed_Open_Space_Count": 20.0,
+            "Prediction_Type": "In-sample fitted estimate"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 7",
+            "sector_number": 7,
+            "Fitted_Open_Space_Count": 26.15,
+            "Observed_Open_Space_Count": 67.0,
+            "Prediction_Type": "In-sample fitted estimate"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 8",
+            "sector_number": 8,
+            "Fitted_Open_Space_Count": 26.15,
+            "Observed_Open_Space_Count": 10.0,
+            "Prediction_Type": "In-sample fitted estimate"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 9",
+            "sector_number": 9,
+            "Fitted_Open_Space_Count": 26.15,
+            "Observed_Open_Space_Count": 15.0,
+            "Prediction_Type": "In-sample fitted estimate"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 10",
+            "sector_number": 10,
+            "Fitted_Open_Space_Count": 26.15,
+            "Observed_Open_Space_Count": 15.0,
+            "Prediction_Type": "In-sample fitted estimate"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 11",
+            "sector_number": 11,
+            "Fitted_Open_Space_Count": 26.15,
+            "Observed_Open_Space_Count": 26.0,
+            "Prediction_Type": "In-sample fitted estimate"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 12",
+            "sector_number": 12,
+            "Fitted_Open_Space_Count": 26.15,
+            "Observed_Open_Space_Count": 26.0,
+            "Prediction_Type": "In-sample fitted estimate"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 13",
+            "sector_number": 13,
+            "Fitted_Open_Space_Count": 26.15,
+            "Observed_Open_Space_Count": 4.0,
+            "Prediction_Type": "In-sample fitted estimate"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 14",
+            "sector_number": 14,
+            "Fitted_Open_Space_Count": 26.15,
+            "Observed_Open_Space_Count": 16.0,
+            "Prediction_Type": "In-sample fitted estimate"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 15",
+            "sector_number": 15,
+            "Fitted_Open_Space_Count": 26.15,
+            "Observed_Open_Space_Count": 4.0,
+            "Prediction_Type": "In-sample fitted estimate"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 16",
+            "sector_number": 16,
+            "Fitted_Open_Space_Count": 26.15,
+            "Observed_Open_Space_Count": 10.0,
+            "Prediction_Type": "In-sample fitted estimate"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 17",
+            "sector_number": 17,
+            "Fitted_Open_Space_Count": 26.15,
+            "Observed_Open_Space_Count": 36.0,
+            "Prediction_Type": "In-sample fitted estimate"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 18",
+            "sector_number": 18,
+            "Fitted_Open_Space_Count": 26.15,
+            "Observed_Open_Space_Count": 37.0,
+            "Prediction_Type": "In-sample fitted estimate"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 19",
+            "sector_number": 19,
+            "Fitted_Open_Space_Count": 26.15,
+            "Observed_Open_Space_Count": 21.0,
+            "Prediction_Type": "In-sample fitted estimate"
+        },
+        {
+            "city": "Jalandhar",
+            "sector": "Sector 20",
+            "sector_number": 20,
+            "Fitted_Open_Space_Count": 26.15,
+            "Observed_Open_Space_Count": 27.0,
+            "Prediction_Type": "In-sample fitted estimate"
+        }
+    ],
+    "limitations": [
+        "Only 20 observations",
+        "Sector number is an identifier",
+        "No future observations available",
+        "No environmental covariates available",
+        "Not a validated forecasting model"
+    ]
+}

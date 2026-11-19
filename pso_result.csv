@@ -1,0 +1,21 @@
+city,sector,sector_number,Existing_Open_Spaces,PSO_Allocated_Spaces,PSO_Final_Open_Spaces,Greedy_Allocated_Spaces,Greedy_Final_Open_Spaces,PSO_Allocation_Share_Percent,PSO_Change_Percent
+Jalandhar,Sector 1,1,15,7,22,6,21,7.0,46.666666666666664
+Jalandhar,Sector 2,2,37,0,37,0,37,0.0,0.0
+Jalandhar,Sector 3,3,2,19,21,19,21,19.0,950.0
+Jalandhar,Sector 4,4,120,0,120,0,120,0.0,0.0
+Jalandhar,Sector 5,5,15,6,21,6,21,6.0,40.0
+Jalandhar,Sector 6,6,20,1,21,1,21,1.0,5.0
+Jalandhar,Sector 7,7,67,0,67,0,67,0.0,0.0
+Jalandhar,Sector 8,8,10,11,21,11,21,11.0,110.0
+Jalandhar,Sector 9,9,15,6,21,6,21,6.0,40.0
+Jalandhar,Sector 10,10,15,0,15,5,20,0.0,0.0
+Jalandhar,Sector 11,11,26,0,26,0,26,0.0,0.0
+Jalandhar,Sector 12,12,26,0,26,0,26,0.0,0.0
+Jalandhar,Sector 13,13,4,17,21,16,20,17.0,425.0
+Jalandhar,Sector 14,14,16,5,21,4,20,5.0,31.25
+Jalandhar,Sector 15,15,4,17,21,16,20,17.0,425.0
+Jalandhar,Sector 16,16,10,11,21,10,20,11.0,110.0
+Jalandhar,Sector 17,17,36,0,36,0,36,0.0,0.0
+Jalandhar,Sector 18,18,37,0,37,0,37,0.0,0.0
+Jalandhar,Sector 19,19,21,0,21,0,21,0.0,0.0
+Jalandhar,Sector 20,20,27,0,27,0,27,0.0,0.0

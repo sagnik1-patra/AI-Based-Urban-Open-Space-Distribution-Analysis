@@ -1,0 +1,23 @@
+project: AI-Based Urban Open Space Distribution Analysis and Green Infrastructure
+  Optimization
+algorithm: Particle Swarm Optimization
+variant: Discrete PSO with Integer Repair
+dataset: C:\Users\sagni\Downloads\AI-Based Urban Open Space Distribution Analysis
+  and Green Infrastructure Optimization Using PSO and AIS\OpenSpaces_Jalandhar_2.csv
+objective: Minimize variance of final counts
+budget: 100
+swarm_size: 50
+iterations: 200
+inertia_start: 0.9
+inertia_end: 0.4
+cognitive_coefficient: 1.5
+social_coefficient: 1.5
+velocity_limit: 20.0
+max_new_spaces_per_sector: null
+random_seed: 42
+assumptions:
+- All sectors have equal weight
+- Every additional open space has unit value
+- Allocation budget is simulated
+- No verified land-capacity data
+- No population-adjusted accessibility modeling

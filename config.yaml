@@ -1,0 +1,32 @@
+project_name: AI-Based Urban Open Space Distribution Analysis and Green Infrastructure
+  Optimization Using PSO and AIS
+dataset: C:\Users\sagni\Downloads\AI-Based Urban Open Space Distribution Analysis
+  and Green Infrastructure Optimization Using PSO and AIS\OpenSpaces_Jalandhar_2.csv
+random_state: 42
+target: open_space_count
+features:
+- sector_number
+models:
+- Mean Baseline
+- Linear Regression
+- Ridge Regression
+- Random Forest
+evaluation:
+  method: Leave-One-Out Cross-Validation
+  selection_metric: MAE
+  best_model: Mean Baseline
+outputs:
+  accuracy_graph: accuracy_graph.png
+  heatmap: heatmap.png
+  comparison_graph: comparison_graph.png
+  result_csv: result.csv
+  result_graph: result_graph.png
+  prediction_csv: prediction.csv
+  prediction_graph: prediction_graph.png
+  metrics_csv: model_metrics.csv
+limitations:
+- Only 20 observations
+- Sector number is an identifier
+- No future observations available
+- No environmental covariates available
+- Not a validated forecasting model

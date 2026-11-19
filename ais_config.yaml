@@ -1,0 +1,20 @@
+project: AI-Based Urban Open Space Distribution Analysis and Green Infrastructure
+  Optimization
+algorithm: AIS Clonal Selection
+dataset: C:\Users\sagni\Downloads\AI-Based Urban Open Space Distribution Analysis
+  and Green Infrastructure Optimization Using PSO and AIS\OpenSpaces_Jalandhar_2.csv
+objective: Minimize variance of final counts
+budget: 100
+population_size: 50
+generations: 200
+elite_count: 10
+clones_per_elite: 8
+random_injection: 8
+max_mutation_transfers: 10
+max_new_spaces_per_sector: null
+random_seed: 42
+assumptions:
+- All sectors have equal weight
+- Each new open space has equal unit value
+- All simulated allocations are feasible
+- No real-world land constraints are modeled
